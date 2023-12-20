@@ -25,7 +25,7 @@
 <body class="bg-gray-100">
     <div class="w-3/4 mx-auto">
         <x-success-message class="my-4" />
-        
+
         <a href="/">Home</a>
 
         {{-- create todo --}}
