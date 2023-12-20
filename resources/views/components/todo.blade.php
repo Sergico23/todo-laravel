@@ -13,7 +13,7 @@
             <form action="{{ route('todo.change-is-done', $todo->id) }}" method="POST" class="flex ml-2">
                 @csrf
                 <x-button :color="$todo->is_done ? 'gray' : 'blue'" small>
-                    {{ $todo->is_done ? 'Mark As Undone' : 'Marcar como hecho' }}
+                    {{ $todo->is_done ? 'Mark As Undone' : 'Mark As Done' }}
                 </x-button>
             </form>
         </div>

@@ -11,7 +11,7 @@
         http-equiv="X-UA-Compatible"
         content="ie=edge"
     >
-    <title>Todo Application</title>
+    <title>Aplicación Maria y Sergi</title>
     <link
         rel="stylesheet"
         href="{{ mix('css/app.css') }}"
